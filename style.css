@@ -1,0 +1,39 @@
+/* Specify the animation for the slide effect on <h1> */
+@keyframes slideIn {
+    from {
+        transform: translateX(30%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+  
+/* Apply the animation to <h1> when the element has the slide-animation class */
+h1.slide-animation {
+    opacity: 0;
+    animation: slideIn 0.5s ease-in-out forwards;
+}
+    h2.slide-animation {
+    opacity: 0;
+    animation: slideIn 0.3s ease-in-out forwards;
+}
+    h3.slide-animation {
+    opacity: 0;
+    animation: slideIn 0.3s ease-in-out forwards;
+}
+
+/* Offset the starting point of the animation for <h1> and <h2> */
+h1:not(:first-child),
+h2:not(:first-child),
+h3:not(:first-child) {animation-delay: 0.2s;}
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+h1{
+    text-align: center;
+}
