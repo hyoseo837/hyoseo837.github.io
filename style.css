@@ -35,3 +35,10 @@ h1{
     vertical-align: bottom;
     height: 300px;
 }
+
+a{
+    color: azure;
+}
+a:hover{
+    color: lightblue;
+}
