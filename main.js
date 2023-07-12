@@ -11,15 +11,8 @@ function isElementInViewport(element) {
 
 // Function to add the animation class when the element is in the viewport
 function addAnimationOnScroll() {
-    const h1Elements = document.querySelectorAll('h1');
     const h2Elements = document.querySelectorAll('h2');
     const h3Elements = document.querySelectorAll('h3');
-
-    h1Elements.forEach((element) => {
-        if (isElementInViewport(element)) {
-            element.classList.add('slide-animation');
-        }
-    });
 
     h2Elements.forEach((element) => {
         if (isElementInViewport(element)) {
