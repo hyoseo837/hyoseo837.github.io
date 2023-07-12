@@ -14,6 +14,14 @@ document.addEventListener('keydown',(e)=>{
     if(e.code === "ArrowRight"){
         nextDir = 0;
     }
+    if(e.key == "r"){
+        bodyPos = [[6,7],[7,7]]
+        bodyLength = 2;
+        headDir = 0;
+        nextDir = 0;
+        applePos = [9,7]  
+        running = true;
+    }
 })
 
 function regenApple(){
@@ -42,9 +50,12 @@ function drawScreen(){
 function drawEnd(){
     ctx.clearRect(0, 0, screen.width, screen.height);
     ctx.fillStyle = "rgb(200,0,0)"
-    ctx.fillRect(0,0,225,225)       
-}
-                
+    ctx.fillRect(0,0,225,225)
+    
+    ctx.fillStyle = "rgb(0,0,0)";
+    ctx.font = "25px Arial";
+    ctx.fillText("'r' to restart",50,130);
+}         
 
 function isBumped(){
     if (bodyPos[0][0] < 0 || bodyPos[0][0] > 14) {
