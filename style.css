@@ -1,39 +1,30 @@
-/* Specify the animation for the slide effect on <h1> */
-@keyframes slideIn {
-    from {
-        transform: translateX(30%);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-  
-/* Apply the animation to <h1> when the element has the slide-animation class */
 
-h2.slide-animation {
-    opacity: 0;
-    animation: slideIn 0.3s ease-in-out forwards;
+html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    font-family: Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+    font-feature-settings: normal;
+    font-variation-settings: normal
 }
-h3.slide-animation {
-    opacity: 0;
-    animation: slideIn 0.3s ease-in-out forwards;
-}
-
-/* Offset the starting point of the animation for <h1> and <h2> */
-h2:not(:first-child),
-h3:not(:first-child) {animation-delay: 0.2s;}
 
 body{
-    background-color: black;
-    color: aliceblue;
+    background-color: #262626;
+    color: #FFFFFF;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
-h1{
+h1,h2{
     text-align: center;
-    vertical-align: bottom;
-    height: 300px;
+}
+hr.solid{
+    border-top: 2px solid #98C945;
+}
+h2{
+    margin-top: 50px;
 }
 
 a{
@@ -41,4 +32,16 @@ a{
 }
 a:hover{
     color: lightblue;
+}
+
+div.project{
+    border: 1px dotted #98C945;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
 }
