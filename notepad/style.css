@@ -1,0 +1,56 @@
+/* Reset default margin and padding for the whole page */
+body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a warm background color and cooler text color for the page */
+body {
+    color: #333; /* Dark gray text */
+    font-family: 'Helvetica Neue', 'Helvetica', 'Apple SD Gothic Neo', 'NanumBarunGothic', 'Malgun Gothic', dotum, 'Lucida Grande', sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* Style the main heading */
+h1 {
+    font-size: 28px;
+    text-align: center;
+    padding: 20px;
+    color: #222;
+}
+
+/* Style the section headings */
+h2 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+/* Style the post list */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Style the individual list items */
+li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Style the links */
+a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Center the post list */
+#post-list {
+    max-width: 600px;
+    margin: 0 auto;
+}
