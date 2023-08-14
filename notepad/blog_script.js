@@ -11,6 +11,7 @@ const blogPosts = [
     { title: "자의식에 대하여", date: "2023-08-11" },
     { title: "인간은 언제나 완벽한 판단을 한다", date: "2023-08-12" },
     { title: "민주주의는 항상 독재보다 옳은가", date: "2023-08-13" },
+    { title: "가벼운 이야기", date: "2023-08-14" },
     // ... Add more posts here
 ];
 
