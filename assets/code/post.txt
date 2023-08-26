@@ -1,0 +1,5 @@
+
+cd C:\Users\Hyoseo\Documents\Programming\hyoseo837.github.io\assets\code
+python post.py
+
+ECHO DONE
