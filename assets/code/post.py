@@ -77,3 +77,6 @@ if ok:
     html_f.close()
 
     git_push(date,BASE_PATH)
+
+else:
+    print("post failed")
