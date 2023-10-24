@@ -6,7 +6,8 @@ from commit_it import git_push
 weekdays = ['월', '화', '수', '목', '금', '토', '일']
 ok = True
 try:
-    BASE_PATH = fd.askdirectory()
+    # BASE_PATH = fd.askdirectory()
+    BASE_PATH = "C:/Users/hyose/Documents/Programming/hyoseo837.github.io"
 except:
     ok = False
 
