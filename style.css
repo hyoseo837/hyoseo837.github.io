@@ -1,47 +1,87 @@
-
-html {
-    line-height: 1.5;
-    -webkit-text-size-adjust: 100%;
-    -moz-tab-size: 4;
-    -o-tab-size: 4;
-    tab-size: 4;
-    font-family: Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
-    font-feature-settings: normal;
-    font-variation-settings: normal
+@font-face {
+    font-family: "Comfortaa";
+    src: local("Comfortaa"),
+        url(./assets/Comfortaa/Comfortaa-VariableFont_wght.ttf)
+            format("opentype");
 }
 
-body{
-    background-color: #262626;
-    color: #FFFFFF;
-    padding-left: 25%;
-    padding-right: 25%;
+body {
+    background-color: #eae9ea;
+    color: #45363e;
+    font-family: Comfortaa;
 }
 
-h1,h2{
-    text-align: center;
-}
-hr.solid{
-    border-top: 2px solid #98C945;
-}
-h2{
-    margin-top: 50px;
+hr.solid {
+    border-top: 2px solid #7dc95e;
+    margin: 50px 0px;
 }
 
-a{
-    color: azure;
-}
-a:hover{
-    color: lightblue;
-}
-
-div.project{
-    border: 1px dotted #98C945;
-    padding-left: 30px;
-    padding-right: 30px;
+div.project {
+    border-radius: 30px;
     margin-bottom: 20px;
 }
 
-img{
-    max-width: 100%;
-    height: auto;
+.photo {
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.name {
+    font-size: 80px;
+    margin-bottom: 0px;
+}
+
+.profileBox {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+}
+
+.categoryTitle {
+    font-size: 40px;
+}
+.myFooter {
+    position: relative;
+    width: 60%;
+    background: #353131;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20%;
+    flex-direction: row;
+    color: #f8f8f3;
+}
+
+.socialIcon {
+    list-style: none;
+    color: inherit;
+    margin: 5px;
+}
+.iconsRow {
+    padding-inline-start: 0;
+}
+
+.aboutMeRow {
+    padding-inline-start: 5px;
+    margin-top: 10px;
+}
+
+.aboutMeItems {
+    list-style: "- ";
+    font-size: 13px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+.aboutMeLinks {
+    color: inherit;
+}
+
+.footerTitle {
+    font-weight: bold;
+    margin-bottom: 10px;
 }
