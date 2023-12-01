@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from tkinter import filedialog as fd
 from datetime import date as dt
 import json
