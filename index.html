@@ -1,476 +1,439 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <link
-            href="https://fonts.googleapis.com/css?family=Open Sans"
-            rel="stylesheet"
-        />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open Sans"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>My Profile</title>
-        <link rel="stylesheet" href="style.css" />
-        <script src="main.js"></script>
-        <meta charset="utf-8" />
-        <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href="/assets/icons/apple-touch-icon.png"
-        />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="/assets/icons/favicon-32x32.png"
-        />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="/assets/icons/favicon-16x16.png"
-        />
-    </head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+    <meta charset="utf-8" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/icons/favicon-16x16.png"
+    />
+  </head>
 
-    <body>
-        <div style="margin: 0px 10%">
-            <div class="profileBox">
-                <img
-                    class="photo"
-                    src="assets/img/profilePhoto.jpg"
-                    alt="Loading..."
-                />
-                <h1 class="name">Hyoseo Lee</h1>
-            </div>
-            <hr class="solid" />
-            <div class="categoryBox" id="info">
-                <h1 class="categoryTitle">Personal information</h1>
-                <ul>
-                    <li>Birth date : 2005/02/07</li>
-                    <li>Gender : Male</li>
-                    <li>Nationality : Korean</li>
-                </ul>
-            </div>
-            <div class="categoryBox" id="education">
-                <h1 class="categoryTitle">Education</h1>
-                <ul>
-                    <li>2011.03 - 2017.02 : Anyangnam Elementry School</li>
-                    <li>2017.03 - 2020.02 : Daean Middle School</li>
-                    <li>2020.03 - 2020.05 : Buhung High School</li>
-                    <li>2020.08 - 2023.05 : American School of Warsaw</li>
-                </ul>
-            </div>
-            <div class="categoryBox" id="vision">
-                <h1 class="categoryTitle">
-                    Vision (<a href="notepad/index.html">here is my blog!</a>)
-                </h1>
-                <ol>
-                    <li>Be happy</li>
-                    <li>Be unique</li>
-                    <li>Be useful</li>
-                </ol>
-            </div>
-            <div class="categoryBox" id="skill">
-                <h1 class="categoryTitle">Skills</h1>
-                <h2>Languages</h2>
-                <ul>
-                    <li>Korean: native</li>
-                    <li>English: good</li>
-                </ul>
-                <h2>Programming</h2>
-                <ul>
-                    <li>Python</li>
-                    <li>C/C++</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                </ul>
-                <!-- <h2>mini Games</h2>
-            <ul>
-                <li><a href="snakes">link to snake</a></li>
-                <li><a href="2048s">link to 2048</a></li>
-                <li><a href="flappyBird">link to flappy bird</a></li>
-            </ul> -->
-            </div>
-            <hr class="solid" />
-            <div class="categoryBox" id="projects">
-                <h1 class="categoryTitle">Projects</h1>
-                <div class="project">
-                    <h2>Orbt!</h2>
-                    <p>
-                        Status: Finished Language: HTML, CSS, JavaScript <br />
-                    </p>
-                    <p>
-                        Project that creating a Chrome extension minigame based
-                        on steam game Orbt XL<br />
-                        <a
-                            title="Click to Try!"
-                            href="https://chrome.google.com/webstore/detail/keep-orbt/fnojejaphahikdnanchmnccmilgnffmf?hl=en"
-                        >
-                            <img
-                                src="assets/img/Orbt1.png"
-                                alt="loading"
-                                loading="lazy"
-                                height="200"
-                            />
-                        </a>
-                    </p>
-                </div>
-                <div class="project">
-                    <h2>Rubic Cube helper</h2>
-                    <p>
-                        Status: Finished Language: Python<br />
-                        Library: pygame, rubik_cube <br />
-                    </p>
-                    <p>
-                        Project for IB Computer Science IA. It is the project of
-                        whole completed program that solves and shows the
-                        solution on the user interface<br />
-                    </p>
-                    <a
-                        title="Click to Try!"
-                        href="https://github.com/hyoseo837/Rubik-Cube-Helper"
-                    >
-                        <img
-                            src="assets/img/Cube_solver1.png"
-                            alt="loading"
-                            loading="lazy"
-                            height="300"
-                        />
-                    </a>
-                </div>
-                <div class="project">
-                    <h2>Infection simulation</h2>
-                    <p>
-                        Status: Finished Language: Python<br />
-                        Library: pygame<br />
-                    </p>
-                    <p>
-                        Project for MYP Personal project in 10th grade. It is
-                        the project of creating simulator based on simple rules
-                        of infection<br />
-                    </p>
-                    <a
-                        title="Click to Try!"
-                        href="https://github.com/hyoseo837/infection_simulation"
-                    >
-                        <img
-                            src="assets/img/Infection_Simulator1.png"
-                            alt="loading"
-                            loading="lazy"
-                            height="300"
-                        />
-                    </a>
-                </div>
-                <div class="project">
-                    <h2>Fractal generator</h2>
-                    <p>Status: Finished Language: C++<br /></p>
-                    <p>
-                        Project for IB Extended Essay. It was about Newton's
-                        fractal and this project is for creating a program that
-                        produce accurate newton's fractal image in specific
-                        resolution with imaginary number operations.<br />
-                    </p>
-                    <a
-                        title="Click to Try!"
-                        href="https://github.com/hyoseo837/Learning-Cpp/blob/master/Gravitation/NewtonFractal.cpp"
-                    >
-                        <img
-                            src="assets/img/Newton_Fractal1.bmp"
-                            alt="loading"
-                            loading="lazy"
-                            height="300"
-                        />
-                    </a>
-                </div>
-                <div class="project">
-                    <h2>Gravitational motion Simulator</h2>
-                    <p>
-                        Status: Finished Language: C++<br />
-                        Library: SFML<br />
-                    </p>
-                    <p>
-                        Project of simulator that run based on Graviational
-                        laws. It calculate gravitational field strength and run
-                        based on classical machenics<br />
-                    </p>
-                    <a
-                        title="Click to Try!"
-                        href="https://github.com/hyoseo837/Learning-Cpp/blob/master/Gravitation/Gravitation.cpp"
-                    >
-                        <img
-                            src="assets/img/Gravitation_Simulator1.png"
-                            alt="loading"
-                            loading="lazy"
-                            height="300"
-                        />
-                    </a>
-                </div>
-                <div class="project">
-                    <h2>Casino Project</h2>
-                    <p>Status: Finished Language: Python<br /></p>
-                    <p>
-                        This project was for fun colaborated with Jaewon. it has
-                        lobby and has a lot of games in the program. it's based
-                        on console interface but it was well designed.<br />
-                    </p>
-                    <a
-                        title="Click to Try!"
-                        href="https://github.com/hyoseo837/casino_project/tree/master"
-                    >
-                        <img
-                            src="assets/img/Casino1.png"
-                            alt="loading"
-                            loading="lazy"
-                            height="100"
-                        />
-                    </a>
-                </div>
-                <div class="project">
-                    <h2>mini LoL</h2>
-                    <p>
-                        Status: Finished Language: Python<br />
-                        Library: pygame<br />
-                    </p>
-                    <p>
-                        minigame created with pygame that have several league of
-                        legend champions<br />
-                    </p>
-                    <a
-                        title="Click to Try!"
-                        href="https://github.com/hyoseo837/minilol"
-                    >
-                        <img
-                            src="assets/img/miniLoL1.png"
-                            alt="loading"
-                            loading="lazy"
-                            height="300"
-                        />
-                    </a>
-                </div>
-                <div class="project">
-                    <h2>bico game</h2>
-                    <p>
-                        Status: Finished Language: Python<br />
-                        Library: pygame<br />
-                    </p>
-                    <p>
-                        project for creating a game of earning money with crypto
-                        coins that randomly changing price<br />
-                    </p>
-                    <a
-                        title="Click to Try!"
-                        href="https://github.com/hyoseo837/bico"
-                    >
-                        <img
-                            src="assets/img/bico_game1.png"
-                            alt="loading"
-                            loading="lazy"
-                            height="300"
-                        />
-                    </a>
-                </div>
-                <div class="project">
-                    <h2>League tier crawling</h2>
-                    <p>
-                        Status: finished Language: python<br />
-                        Library: beautifulSoup4, CSV<br />
-                    </p>
-                    <p>
-                        project for crawling data from op.gg to manage my
-                        database<br />
-                    </p>
-                </div>
-                <div class="project">
-                    <h2>bitcoin predictor</h2>
-                    <p>
-                        Status: finished Language: python<br />
-                        Library: tensorFlow<br />
-                    </p>
-                    <p>
-                        project for predicting next bitcoin price based on
-                        history record by using neural network machine learning
-                        model with tensorflow<br />
-                    </p>
-                </div>
-                <div class="project">
-                    <h2>discord bot</h2>
-                    <p>
-                        Status: finished Language: python<br />
-                        Library: discord API, heroku<br />
-                    </p>
-                    <p>
-                        project for creating a discord bot that respond to
-                        people's chat on discord server<br />
-                    </p>
-                    <a href="https://github.com/hyoseo837/dicobot">
-                        code repository here!
-                    </a>
-                </div>
-                <div class="project">
-                    <h2>Solitaire</h2>
-                    <p>
-                        Status: failed <br />
-                        Language: Dart, Flutter<br />
-                    </p>
-                    <p>
-                        project for creating a solitaire card game from SHENZHEN
-                        IO<br />
-                    </p>
-                    <a
-                        title="Click to Try!"
-                        href="https://github.com/hyoseo837/solitaire"
-                    >
-                        <img
-                            src="assets/img/Solitaire1.png"
-                            alt="loading"
-                            loading="lazy"
-                            height="300"
-                        />
-                    </a>
-                </div>
-                <div class="project">
-                    <h2>Solitaire with react</h2>
-                    <p>
-                        Status: done <br />
-                        Language: React, create-react-app<br />
-                    </p>
-                    <p>
-                        project for creating a solitaire card game from SHENZHEN
-                        IO with react this time.<br />
-                    </p>
-                    <a
-                        title="Click to Try!"
-                        href="https://github.com/hyoseo837/ddanzt"
-                    >
-                        <img
-                            src="assets/img/Solitaire2.png"
-                            alt="loading"
-                            loading="lazy"
-                            height="300"
-                        />
-                    </a>
-                </div>
-                <div class="project">
-                    <h2>Other minor projects</h2>
-                    <p>Language: python, JavaScript, Dart<br /></p>
-                    <ul>
-                        <li>AI for Rock Scissor Paper</li>
-                        <li>interactive screens</li>
-                        <li>tictactoe chrome extension</li>
-                        <li>guess number chrome extension</li>
-                        <li>toonflix</li>
-                        <li>reaction speed checker</li>
-                        <li>sowrd upgrading game</li>
-                        <li>random name generator</li>
-                        <li>perfect tictactoe bot</li>
-                        <li>gravitational machenics calculator</li>
-                        <li>mini Fortress</li>
-                        <li>evolution simulator</li>
-                        <li>aim training program</li>
-                        <li>kivy user interface</li>
-                        <li>spanish conjugation study tool</li>
-                        <li>vector calculator</li>
-                    </ul>
-                </div>
-            </div>
+  <body>
+    <div style="margin: 0px 10%">
+      <div class="profileBox">
+        <img class="photo" src="assets/img/profilePhoto.jpg" alt="Loading..." />
+        <h1 class="name">Hyoseo Lee</h1>
+      </div>
+      <hr class="solid" />
+      <div class="categoryBox" id="education">
+        <h1 class="categoryTitle">Education</h1>
+        <ul>
+          <li>2011.03 - 2017.02 : Anyangnam Elementry School</li>
+          <li>2017.03 - 2020.02 : Daean Middle School</li>
+          <li>2020.03 - 2020.05 : Buhung High School</li>
+          <li>2020.08 - 2023.05 : American School of Warsaw</li>
+        </ul>
+      </div>
+      <div class="categoryBox" id="vision">
+        <h1 class="categoryTitle">Vision</h1>
+        <ol>
+          <li>Be happy</li>
+          <li>Be unique</li>
+          <li>Be useful</li>
+        </ol>
+      </div>
+      <div class="categoryBox" id="skill">
+        <h1 class="categoryTitle">Skills</h1>
+        <h2>Languages</h2>
+        <ul>
+          <li>Korean: native</li>
+          <li>English: fluent</li>
+        </ul>
+        <h2>Programming</h2>
+        <ul>
+          <li>Python</li>
+          <li>C/C++</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Haskell</li>
+        </ul>
+        <h2>technology</h2>
+        <ul>
+          <li>git/github</li>
+          <li>jupiter notebook/google colab</li>
+          <li>Pandas/numpy/matplotlib</li>
+          <li>pygame</li>
+          <li>SFML</li>
+        </ul>
+      </div>
+      <footer class="myFooter">
+        <div>
+          <p class="footerTitle">More Games</p>
+          <ul class="aboutMeRow">
+            <li class="aboutMeItems">
+              <a class="aboutMeLinks" href="https://hyoseo837.github.io/ddanzt">
+                Solitaire
+              </a>
+            </li>
+            <li class="aboutMeItems">
+              <a class="aboutMeLinks" href="https://hyoseo837.github.io/snakes">
+                Snake
+              </a>
+            </li>
+            <li class="aboutMeItems">
+              <a class="aboutMeLinks" href="https://hyoseo837.github.io/2048s">
+                2048
+              </a>
+            </li>
+            <li class="aboutMeItems">
+              <a
+                class="aboutMeLinks"
+                href="https://hyoseo837.github.io/flappyBird"
+              >
+                flappyBird
+              </a>
+            </li>
+          </ul>
         </div>
 
-        <footer class="myFooter">
-            <div>
-                <p class="footerTitle">More Games</p>
-                <ul class="aboutMeRow">
-                    <li class="aboutMeItems">
-                        <a
-                            class="aboutMeLinks"
-                            href="https://hyoseo837.github.io/ddanzt"
-                        >
-                            Solitaire
-                        </a>
-                    </li>
-                    <li class="aboutMeItems">
-                        <a
-                            class="aboutMeLinks"
-                            href="https://hyoseo837.github.io/snakes"
-                        >
-                            Snake
-                        </a>
-                    </li>
-                    <li class="aboutMeItems">
-                        <a
-                            class="aboutMeLinks"
-                            href="https://hyoseo837.github.io/2048s"
-                        >
-                            2048
-                        </a>
-                    </li>
-                    <li class="aboutMeItems">
-                        <a
-                            class="aboutMeLinks"
-                            href="https://hyoseo837.github.io/flappyBird"
-                        >
-                            flappyBird
-                        </a>
-                    </li>
-                </ul>
-            </div>
+        <div>
+          <p class="footerTitle">About me</p>
+          <ul class="aboutMeRow">
+            <li class="aboutMeItems">
+              <a class="aboutMeLinks" href=""> Profile </a>
+            </li>
+            <li class="aboutMeItems">
+              <a
+                class="aboutMeLinks"
+                href="https://hyoseo837.github.io/notepad/index.html"
+              >
+                Blog
+              </a>
+            </li>
+            <li class="aboutMeItems">
+              <a class="aboutMeLinks" href="#projects">Projects</a>
+            </li>
+            <li class="aboutMeItems">
+              <a
+                class="aboutMeLinks"
+                href="/assets/pdfs/CV_Developer__2024_3_14_.pdf"
+                download
+                style="text-align: right"
+                >Resume/CV</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p class="footerTitle">Contact me</p>
+          <ul class="iconsRow">
+            <a
+              href="https://www.linkedin.com/in/hyoseo-lee-564b95246/"
+              class="socialIcon"
+              ><i class="fa fa-linkedin-square" style="font-size: 24px"></i
+            ></a>
+            <a href="https://www.instagram.com/hyoseo837/" class="socialIcon">
+              <i class="fa fa-instagram" style="font-size: 24px"></i
+            ></a>
+            <a href="https://github.com/hyoseo837" class="socialIcon">
+              <i class="fa fa-github-square" style="font-size: 24px"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100022962826682"
+              class="socialIcon"
+            >
+              <i class="fa fa-facebook-square" style="font-size: 24px"></i
+            ></a>
+          </ul>
+        </div>
+      </footer>
+      <hr class="solid" />
+      <div class="categoryBox" id="projects">
+        <h1 class="categoryTitle">Projects</h1>
+        <!-- <div class="project">
+          <h2>Name</h2>
+          <p>duration</p>
+          <a href=""
+            >LINK_TO_GITHUB</a
+          >
+          <p>LANGUAGE/TECHNOLOGY USED</p>
+          <p>
+            DESCRIPTION
+          </p>
+        </div> -->
 
-            <div>
-                <p class="footerTitle">About me</p>
-                <ul class="aboutMeRow">
-                    <li class="aboutMeItems">
-                        <a class="aboutMeLinks" href=""> Profile </a>
-                    </li>
-                    <li class="aboutMeItems">
-                        <a class="aboutMeLinks" href="#projects">Projects</a>
-                    </li>
-                    <li class="aboutMeItems">
-                        <a
-                            class="aboutMeLinks"
-                            href="https://hyoseo837.github.io/notepad/index.html"
-                        >
-                            Blog
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <p class="footerTitle">Contact me</p>
-                <ul class="iconsRow">
-                    <a
-                        href="https://www.linkedin.com/in/hyoseo-lee-564b95246/"
-                        class="socialIcon"
-                        ><i
-                            class="fa fa-linkedin-square"
-                            style="font-size: 24px"
-                        ></i
-                    ></a>
-                    <a
-                        href="https://www.instagram.com/hyoseo837/"
-                        class="socialIcon"
-                    >
-                        <i class="fa fa-instagram" style="font-size: 24px"></i
-                    ></a>
-                    <a href="https://github.com/hyoseo837" class="socialIcon">
-                        <i
-                            class="fa fa-github-square"
-                            style="font-size: 24px"
-                        ></i
-                    ></a>
-                    <a
-                        href="https://www.facebook.com/profile.php?id=100022962826682"
-                        class="socialIcon"
-                    >
-                        <i
-                            class="fa fa-facebook-square"
-                            style="font-size: 24px"
-                        ></i
-                    ></a>
-                </ul>
-            </div>
-        </footer>
-    </body>
+        <div class="project">
+          <h2>Study Card webapp</h2>
+          <p>2024.03 - Now</p>
+          <a href="https://github.com/hyoseo837/Dchup"
+            >https://github.com/hyoseo837/Dchup</a
+          >
+          <p>React, create-react-app</p>
+          <p>
+            the project to create web app looks like quizlet that can be
+            published to public. planning to actually service the website, if
+            possible, earn money from it.
+          </p>
+        </div>
+
+        <div class="project">
+          <!-- CxC hackathon -->
+          <h2>CxC hackathon project</h2>
+          <p>2024.02 - 2024.03</p>
+          <a href="https//github.com/hyowon2jjang/CxC-hackathon"
+            >https://github.com/hyowon2jjang/CxC-hackathon</a
+          >
+          <p>Python, Pandas, matplotlib, numpy</p>
+          <p>
+            The project that I did with team when we participated in CxC
+            hackathon. Our team analyzed about 22k of data about wildfire in
+            Alberta and find out which region is most vulnerable, what is the
+            main cause of wildfires, what would be impact to civilization,
+            especially indigenous people, and build AI model that predict the
+            size class of wildfire.
+          </p>
+        </div>
+
+        <div class="project">
+          <!-- ORBT -->
+          <h2>Orbt!</h2>
+          <p>HTML, CSS, JavaScript</p>
+          <a
+            href="https://chrome.google.com/webstore/detail/keep-orbt/fnojejaphahikdnanchmnccmilgnffmf?hl=en"
+          >
+            https://chrome.google.com/webstore/detail/keep-orbt/fnojejaphahikdnanchmnccmilgnffmf?hl=en
+          </a>
+          <p>Project that creating a Chrome extension minigame</p>
+          <img
+            src="assets/img/Orbt1.png"
+            alt="loading"
+            loading="lazy"
+            height="200"
+          />
+        </div>
+        <div class="project">
+          <!-- Rubik's cube -->
+          <h2>Rubic Cube helper</h2>
+          <a href="https://github.com/hyoseo837/Rubik-Cube-Helper"
+            >https://github.com/hyoseo837/Rubik-Cube-Helper</a
+          >
+          <p>Python, pygame, rubik_cube</p>
+          <p>
+            Project for IB Computer Science IA. It is the project of whole
+            completed program that solves and shows the solution on the user
+            interface
+          </p>
+          <img
+            src="assets/img/Cube_solver1.png"
+            alt="loading"
+            loading="lazy"
+            height="300"
+          />
+        </div>
+        <div class="project">
+          <!-- Infection Simulator -->
+          <h2>Infection simulation</h2>
+          <a href="https://github.com/hyoseo837/infection_simulation"
+            >https://github.com/hyoseo837/infection_simulation</a
+          >
+          <p>Python, pygame</p>
+          <p>
+            Project for MYP Personal project in 10th grade. It is the project of
+            creating simulator based on simple rules of infection
+          </p>
+          <img
+            src="assets/img/Infection_Simulator1.png"
+            alt="loading"
+            loading="lazy"
+            height="300"
+          />
+        </div>
+        <div class="project">
+          <!-- fractal generator -->
+          <h2>Fractal generator</h2>
+          <a
+            href="https://github.com/hyoseo837/Learning-Cpp/blob/master/Gravitation/NewtonFractal.cpp"
+            >https://github.com/hyoseo837/Learning-Cpp/blob/master/Gravitation/NewtonFractal.cpp</a
+          >
+          <p>C++</p>
+          <p>
+            Project for IB Extended Essay. It was about Newton's fractal and
+            this project is for creating a program that produce accurate
+            newton's fractal image in specific resolution with imaginary number
+            operations.
+          </p>
+          <img
+            src="assets/img/Newton_Fractal1.bmp"
+            alt="loading"
+            loading="lazy"
+            height="300"
+          />
+        </div>
+        <div class="project">
+          <!-- gravitational motion simulator -->
+          <h2>Gravitational motion Simulator</h2>
+          <a
+            href="https://github.com/hyoseo837/Learning-Cpp/blob/master/Gravitation/Gravitation.cpp"
+            >https://github.com/hyoseo837/Learning-Cpp/blob/master/Gravitation/Gravitation.cpp</a
+          >
+          <p>C++, SFML</p>
+          <p>
+            Project of simulator that run based on Graviational laws. It
+            calculate gravitational field strength and run based on classical
+            machenics
+          </p>
+          <img
+            src="assets/img/Gravitation_Simulator1.png"
+            alt="loading"
+            loading="lazy"
+            height="300"
+          />
+        </div>
+        <div class="project">
+          <!-- casino -->
+          <h2>Casino Project</h2>
+          <a href="https://github.com/hyoseo837/casino_project/tree/master"
+            >https://github.com/hyoseo837/casino_project/tree/master</a
+          >
+          <p>Python</p>
+          <p>
+            This project was for fun colaborated with Jaewon. it has lobby and
+            has a lot of games in the program. it's based on console interface
+            but it was well designed.
+          </p>
+          <img
+            src="assets/img/Casino1.png"
+            alt="loading"
+            loading="lazy"
+            height="100"
+          />
+        </div>
+        <div class="project">
+          <!-- mini lol -->
+          <h2>mini LoL</h2>
+          <a href="https://github.com/hyoseo837/minilol"
+            >https://github.com/hyoseo837/minilol</a
+          >
+          <p>Python, pygame</p>
+          <p>
+            minigame created with pygame that have several league of legend
+            champions
+          </p>
+          <img
+            src="assets/img/miniLoL1.png"
+            alt="loading"
+            loading="lazy"
+            height="300"
+          />
+        </div>
+        <div class="project">
+          <!-- crypto coin game -->
+          <h2>bico game</h2>
+          <a href="https://github.com/hyoseo837/bico"
+            >https://github.com/hyoseo837/bico</a
+          >
+          <p>Python, pygame</p>
+          <p>
+            project for creating a game of earning money with crypto coins that
+            randomly changing price
+          </p>
+          <img
+            src="assets/img/bico_game1.png"
+            alt="loading"
+            loading="lazy"
+            height="300"
+          />
+        </div>
+        <div class="project">
+          <!-- discord bot -->
+          <h2>discord bot</h2>
+          <a href="https://github.com/hyoseo837/dicobot">
+            https://github.com/hyoseo837/dicobot
+          </a>
+          <p>python, discord API, heroku</p>
+          <p>
+            project for creating a discord bot that respond to people's chat on
+            discord server
+          </p>
+        </div>
+        <div class="project">
+          <!-- solitaire with dart -->
+          <h2>Solitaire</h2>
+          <a href="https://github.com/hyoseo837/solitaire"
+            >https://github.com/hyoseo837/solitaire</a
+          >
+          <p>Dart, Flutter</p>
+          <p>
+            project for creating a solitaire card game from SHENZHEN IO with
+            Dart/Flutter but failed due to hook handling bewteen cards
+          </p>
+          <img
+            src="assets/img/Solitaire1.png"
+            alt="loading"
+            loading="lazy"
+            height="300"
+          />
+        </div>
+        <div class="project">
+          <!-- solitaire with react -->
+          <h2>Solitaire with react</h2>
+          <a href="https://github.com/hyoseo837/ddanzt"
+            >https://github.com/hyoseo837/ddanzt</a
+          >
+          <p>React, create-react-app</p>
+          <p>
+            project for creating a solitaire card game from SHENZHEN IO with
+            react.
+          </p>
+          <img
+            src="assets/img/Solitaire2.png"
+            alt="loading"
+            loading="lazy"
+            height="300"
+          />
+        </div>
+        <div class="project">
+          <!-- others -->
+          <h2>Other minor projects</h2>
+          <p>python, JavaScript, Dart...</p>
+          <ul>
+            <li>AI for Rock Scissor Paper</li>
+            <li>interactive screens</li>
+            <li>tictactoe chrome extension</li>
+            <li>guess number chrome extension</li>
+            <li>toonflix</li>
+            <li>reaction speed checker</li>
+            <li>sowrd upgrading game</li>
+            <li>random name generator</li>
+            <li>perfect tictactoe bot</li>
+            <li>gravitational machenics calculator</li>
+            <li>mini Fortress</li>
+            <li>evolution simulator</li>
+            <li>aim training program</li>
+            <li>kivy user interface</li>
+            <li>spanish conjugation study tool</li>
+            <li>vector calculator</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
